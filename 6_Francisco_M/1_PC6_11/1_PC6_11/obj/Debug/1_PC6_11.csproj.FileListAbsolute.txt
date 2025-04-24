@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\bin\Debug\1_PC6_11.exe.config
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\bin\Debug\1_PC6_11.exe
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\bin\Debug\1_PC6_11.pdb
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\obj\Debug\1_PC6_11.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\obj\Debug\1_PC6_11.exe
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_11\1_PC6_11\obj\Debug\1_PC6_11.pdb
