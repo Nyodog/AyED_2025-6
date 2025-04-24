@@ -1,0 +1,9 @@
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\bin\Debug\1_PC6_5.exe.config
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\bin\Debug\1_PC6_5.exe
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\bin\Debug\1_PC6_5.pdb
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\obj\Debug\1_PC6_5.csprojResolveAssemblyReference.cache
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\obj\Debug\1_PC6_5.exe
+c:\users\alumno.et37\documents\visual studio 2015\Projects\1_PC6_5\1_PC6_5\obj\Debug\1_PC6_5.pdb
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_5\1_PC6_5\bin\Debug\1_PC6_5.exe.config
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_5\1_PC6_5\obj\Debug\1_PC6_5.exe
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\1_PC6_5\1_PC6_5\obj\Debug\1_PC6_5.pdb

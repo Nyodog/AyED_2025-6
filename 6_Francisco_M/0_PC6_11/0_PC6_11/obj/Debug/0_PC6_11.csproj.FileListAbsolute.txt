@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\0_PC6_11\0_PC6_11\bin\Debug\0_PC6_11.exe.config
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\0_PC6_11\0_PC6_11\bin\Debug\0_PC6_11.exe
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\0_PC6_11\0_PC6_11\bin\Debug\0_PC6_11.pdb
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\0_PC6_11\0_PC6_11\obj\Debug\0_PC6_11.exe
+C:\Users\alumno.ET37\Desktop\6_Godoy Francisco\6_Ignacio Francisco_M\0_PC6_11\0_PC6_11\obj\Debug\0_PC6_11.pdb
