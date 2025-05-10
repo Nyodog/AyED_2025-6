@@ -88,7 +88,7 @@
             } while (!salir && sigueVivo && dia <= 7);
 
             if (sigueVivo)
-                Console.WriteLine("¡Sobreviviste los 7 días en la isla! 🎉");
+                Console.WriteLine("¡Sobreviviste los 7 días en la isla! ");
 
             Console.ReadKey();
         }
