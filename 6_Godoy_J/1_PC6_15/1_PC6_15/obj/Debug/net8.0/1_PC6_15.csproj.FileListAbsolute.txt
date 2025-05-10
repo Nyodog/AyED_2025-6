@@ -1,0 +1,14 @@
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\bin\Debug\net8.0\1_PC6_15.exe
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\bin\Debug\net8.0\1_PC6_15.deps.json
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\bin\Debug\net8.0\1_PC6_15.runtimeconfig.json
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\bin\Debug\net8.0\1_PC6_15.dll
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\bin\Debug\net8.0\1_PC6_15.pdb
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.dll
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\refint\1_PC6_15.dll
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.pdb
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\1_PC6_15.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\programacion\1_PC6_15\1_PC6_15\obj\Debug\net8.0\ref\1_PC6_15.dll
