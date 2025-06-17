@@ -26,7 +26,7 @@ namespace _2_PC6_8
             {
                 for (int c = 0; c < colum; c++)
                 {
-                    Console.Write(matriz[f, c] + "/t");
+                    Console.Write(matriz[f, c] + "\t");
                 }
                 Console.WriteLine();
             }
