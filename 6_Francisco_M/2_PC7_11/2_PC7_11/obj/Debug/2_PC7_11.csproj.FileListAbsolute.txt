@@ -1,0 +1,5 @@
+C:\Users\alumno.ET37\Desktop\2_PC7_11\2_PC7_11\bin\Debug\2_PC7_11.exe.config
+C:\Users\alumno.ET37\Desktop\2_PC7_11\2_PC7_11\bin\Debug\2_PC7_11.exe
+C:\Users\alumno.ET37\Desktop\2_PC7_11\2_PC7_11\bin\Debug\2_PC7_11.pdb
+C:\Users\alumno.ET37\Desktop\2_PC7_11\2_PC7_11\obj\Debug\2_PC7_11.exe
+C:\Users\alumno.ET37\Desktop\2_PC7_11\2_PC7_11\obj\Debug\2_PC7_11.pdb
