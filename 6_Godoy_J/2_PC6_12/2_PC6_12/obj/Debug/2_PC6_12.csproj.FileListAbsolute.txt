@@ -1,0 +1,6 @@
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\bin\Debug\2_PC6_12.exe.config
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\bin\Debug\2_PC6_12.exe
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\bin\Debug\2_PC6_12.pdb
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\obj\Debug\2_PC6_12.csprojResolveAssemblyReference.cache
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\obj\Debug\2_PC6_12.exe
+C:\Users\alumno.ET37\Desktop\2_PC6_12\2_PC6_12\obj\Debug\2_PC6_12.pdb
