@@ -19,7 +19,7 @@
                 estudiantes[i, 2] = Console.ReadLine();
             }
 
-            Console.WriteLine("\nListado de estudiantes:");
+            Console.WriteLine("Listado de estudiantes:");
             Console.WriteLine("Nombre\t\tEdad\tCalificación");
             for (int i = 0; i < n; i++)
             {
