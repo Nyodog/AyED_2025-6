@@ -1,6 +1,0 @@
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\bin\Debug\2_PC7_10.exe.config
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\bin\Debug\2_PC7_10.exe
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\bin\Debug\2_PC7_10.pdb
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\obj\Debug\2_PC7_10.csprojResolveAssemblyReference.cache
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\obj\Debug\2_PC7_10.exe
-c:\users\alumno.et37\documents\visual studio 2015\Projects\2_PC7_10\2_PC7_10\obj\Debug\2_PC7_10.pdb
