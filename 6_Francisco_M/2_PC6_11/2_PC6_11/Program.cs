@@ -37,7 +37,7 @@ namespace _2_PC7_10
             {
                 for (int c = 0; c < n; c++)
                 {
-                    Console.Write(matriz1[c, f] + "\t");
+                    Console.Write(matriz1[c,n-1- f] + "\t");
                 }
                 Console.WriteLine();
             }
