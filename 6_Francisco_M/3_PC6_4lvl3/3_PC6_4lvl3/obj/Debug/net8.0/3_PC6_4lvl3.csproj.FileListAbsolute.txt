@@ -1,0 +1,14 @@
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\bin\Debug\net8.0\3_PC6_4lvl3.exe
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\bin\Debug\net8.0\3_PC6_4lvl3.deps.json
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\bin\Debug\net8.0\3_PC6_4lvl3.runtimeconfig.json
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\bin\Debug\net8.0\3_PC6_4lvl3.dll
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\bin\Debug\net8.0\3_PC6_4lvl3.pdb
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.AssemblyInfoInputs.cache
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.AssemblyInfo.cs
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.csproj.CoreCompileInputs.cache
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.dll
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\refint\3_PC6_4lvl3.dll
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.pdb
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\3_PC6_4lvl3.genruntimeconfig.cache
+C:\Users\AlphaPC\source\repos\3_PC6_4lvl3\3_PC6_4lvl3\obj\Debug\net8.0\ref\3_PC6_4lvl3.dll
