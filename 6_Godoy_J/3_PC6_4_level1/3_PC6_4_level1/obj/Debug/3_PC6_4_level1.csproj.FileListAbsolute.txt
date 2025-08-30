@@ -1,0 +1,7 @@
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\bin\Debug\3_PC6_4_level1.exe.config
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\bin\Debug\3_PC6_4_level1.exe
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\bin\Debug\3_PC6_4_level1.pdb
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\obj\Debug\3_PC6_4_level1.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\obj\Debug\3_PC6_4_level1.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\obj\Debug\3_PC6_4_level1.exe
+C:\Users\nicol\source\repos\3_PC6_4_level1\3_PC6_4_level1\obj\Debug\3_PC6_4_level1.pdb
