@@ -1,0 +1,7 @@
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\bin\Debug\3_PC6_4_level2.exe.config
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\bin\Debug\3_PC6_4_level2.exe
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\bin\Debug\3_PC6_4_level2.pdb
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\obj\Debug\3_PC6_4_level2.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\obj\Debug\3_PC6_4_level2.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\obj\Debug\3_PC6_4_level2.exe
+C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta (2)\3_PC6_4_level2\3_PC6_4_level2\obj\Debug\3_PC6_4_level2.pdb
