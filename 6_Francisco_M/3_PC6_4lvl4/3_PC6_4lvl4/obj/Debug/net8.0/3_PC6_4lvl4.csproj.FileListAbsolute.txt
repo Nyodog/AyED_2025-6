@@ -1,0 +1,14 @@
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\bin\Debug\net8.0\3_PC6_4lvl4.exe
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\bin\Debug\net8.0\3_PC6_4lvl4.deps.json
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\bin\Debug\net8.0\3_PC6_4lvl4.runtimeconfig.json
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\bin\Debug\net8.0\3_PC6_4lvl4.dll
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\bin\Debug\net8.0\3_PC6_4lvl4.pdb
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.AssemblyInfoInputs.cache
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.AssemblyInfo.cs
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.csproj.CoreCompileInputs.cache
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.dll
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\refint\3_PC6_4lvl4.dll
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.pdb
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\3_PC6_4lvl4.genruntimeconfig.cache
+C:\Users\AlphaPC\Desktop\3_PC6_4lvl4\3_PC6_4lvl4\obj\Debug\net8.0\ref\3_PC6_4lvl4.dll
