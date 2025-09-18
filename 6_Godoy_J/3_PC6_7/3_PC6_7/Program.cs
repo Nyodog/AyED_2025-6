@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace _3_PC6_7
 {
     class Program
     {
-        static string Crear(string[,] tabla, int pjenc, string Nombre, string Saga, string Fuerza, string Defensa, bool EsHeroe)
+        static string Crear(string[,] tabla, int pjenc, string Nombre, string Saga, string Fuerza, string Defensa, string rta, bool rol)
         {
             Console.Clear();
             while (pjenc > 20)
@@ -40,12 +40,12 @@ namespace _3_PC6_7
             tabla[pjenc, 3] = Defensa;
             if (rta == "si")
             {
-                EsHeroe = true;
+                rol = true;
                 tabla[pjenc, 4] = "Heroe";
             }
             else if (rta == "no")
             {
-                EsHeroe = false;
+                rol = false;
                 tabla[pjenc, 4] = "Villano";
             }
             pjenc++;
@@ -61,7 +61,7 @@ namespace _3_PC6_7
             string Fuerza;
             string Defensa;
             string rta;
-            bool EsHeroe = false;
+            bool rol = false;
 
             bool salir = false;
             do
@@ -97,7 +97,7 @@ namespace _3_PC6_7
                         }
                         else
                         {
-                            Console.WriteLine("Cod. Camión\tDistancia\tSede\tGanancia\tAsignado");
+                            Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
                             Console.WriteLine("--------------------------------------------------------------------------------");
                             for (int i = 0; i < pjenc; i++)
                             {
@@ -107,12 +107,12 @@ namespace _3_PC6_7
                                 Defensa = tabla[i, 3];
                                 if (rta == "si")
                                 {
-                                    EsHeroe = true;
+                                    rol = true;
                                     tabla[pjenc, 4] = "Heroe";
                                 }
                                 else if (rta == "no")
                                 {
-                                    EsHeroe = false;
+                                    rol = false;
                                     tabla[pjenc, 4] = "Villano";
                                 }
                                 Console.WriteLine($"{Nombre}\t\t{Saga}km\t\t{Fuerza}\t{Defensa}$\t\t");
