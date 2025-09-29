@@ -9,7 +9,7 @@ namespace _3_PC6_7
     class Program
     {
 
-        static void Main(string[] args)
+                static void Main(string[] args)
         {
             string[,] tabla = new string[20, 5];
             int pjenc = 0;
@@ -22,7 +22,6 @@ namespace _3_PC6_7
             bool salir = false;
             do
             {
-
                 Console.Clear();
                 Console.WriteLine("---Menu Principal: Borderlands MVM---");
                 Console.WriteLine("Personajes actuales: " + pjenc);
@@ -46,66 +45,21 @@ namespace _3_PC6_7
                         break;
 
                     case "2":
-                        Console.Clear();
-                        Console.WriteLine("Ingrese el nombre del personaje a buscar");
-                        nombre = Console.ReadLine();
-                        if (pjenc == 0)
-                        {
-                            Console.WriteLine("No hay personajes registrados.");
-                        }
-                        else
-                        {
-                            for (int i = 0; i < pjenc; i++)
-                            {
-                                buscar(tabla[i, 0], nombre, tabla[i, 1], tabla[i, 3], tabla[i, 2], tabla[i, 4]);
-                            }
-                        }
-
-
-                        Console.WriteLine("Presione una tecla para continuar...");
-                        Console.ReadKey();
+                        BuscarPersonaje(tabla, pjenc);
                         break;
 
                     case "3":
-                        Console.Clear();
-                        Console.WriteLine("Ingrese el nombre del personaje a modificar");
-                        nombre = Console.ReadLine();
-                        if (pjenc == 0)
-                        {
-                            Console.WriteLine("No hay personajes registrados.");
-                        }
-                        else
-                        {
-                            for (int i = 0; i < pjenc; i++)
-                            {
-                                modificar(nombre, defensa, fuerza, tabla);
-                            }
-                        }
-                        Console.WriteLine("Presione una tecla para continuar...");
-                        Console.ReadKey();
+                        ModificarPersonaje(tabla, pjenc);
                         break;
 
                     case "4":
-                        Console.Clear();
-                        Console.WriteLine("Ingrese el nombre del personaje a eliminar");
-                        nombre = Console.ReadLine();
-                        if (pjenc == 0)
-                        {
-                            Console.WriteLine("No hay personajes registrados.");
-                        }
-                        else
-                        {
-                            for (int i = 0; i <pjenc; i++)
-                            {
-                                borrar(nombre, rta, saga, defensa, fuerza, rta);
-                            }
-                        }
+                        EliminarPersonaje(tabla, pjenc);
                         Console.WriteLine("Presione una tecla para continuar...");
                         Console.ReadKey();
                         break;
 
                     case "5":
-
+                        MostrarPersonajes(tabla, pjenc);
                         Console.WriteLine("Presione una tecla para continuar...");
                         Console.ReadLine();
                         break;
@@ -117,16 +71,16 @@ namespace _3_PC6_7
             }
             while (!salir);
         }
-        static int Crear(int pjenc, string [,] tabla, string nombre, string saga, string fuerza, string defensa, string rta)
+
+        static int Crear(int pjenc, string[,] tabla, string nombre, string saga, string fuerza, string defensa, string rta)
         {
             Console.Clear();
-            while (pjenc > 20)
+            if (pjenc >= 20)
             {
-                Console.WriteLine("No se pueden registrar más heroes. El máximo es 20.");
-                Console.WriteLine("Presione una tecla para continuar...");
-                Console.ReadKey();
-                break;
+                Console.WriteLine("No se pueden registrar más personajes. El máximo es 20.");
+                return pjenc;
             }
+
             Console.WriteLine("---Crear nuevo personaje---");
             Console.Write("Ingrese el nombre del personaje: ");
             nombre = Console.ReadLine();
@@ -140,98 +94,123 @@ namespace _3_PC6_7
             Console.Write("Ingrese la defensa: ");
             defensa = Console.ReadLine();
 
-            Console.WriteLine("¿Es heroe?");
-            rta = Console.ReadLine().ToUpper();
+            Console.Write("¿Es héroe? (si/no): ");
+            rta = Console.ReadLine().ToLower();
 
             tabla[pjenc, 0] = nombre;
             tabla[pjenc, 1] = saga;
             tabla[pjenc, 2] = fuerza;
             tabla[pjenc, 3] = defensa;
-            if (rta == "si")
-            {
-                tabla[pjenc, 4] = "Heroe";
-            }
-            else if (rta == "no")
-            {
-                tabla[pjenc, 4] = "Villano";
-            }
-            pjenc++;
+            tabla[pjenc, 4] = (rta == "si") ? "Heroe" : "Villano";
 
+            pjenc++;
             return pjenc;
         }
-        static string buscar(string nombre, string rta, string saga, string defensa, string fuerza, string rol)
-        {
 
-            if (rta != Console.ReadLine())
+        static void BuscarPersonaje(string[,] tabla, int pjenc)
+        {
+            Console.Clear();
+            Console.WriteLine("Ingrese el nombre del personaje a buscar:");
+            string nombre = Console.ReadLine();
+            bool encontrado = false;
+
+            for (int i = 0; i < pjenc; i++)
             {
-                return " ";
+                if (tabla[i, 0] == nombre)
+                {
+                    Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
+                    Console.WriteLine(mostrar(tabla[i, 0], tabla[i, 1], tabla[i, 2], tabla[i, 3], tabla[i, 4]));
+                    encontrado = true;
+                }
             }
-            Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
+
+            if (!encontrado)
+            {
+                Console.WriteLine("Personaje no encontrado.");
+            }
+            Console.WriteLine("Presione una tecla para continuar...");
+            Console.ReadKey();
+        }
+
+        static void ModificarPersonaje(string[,] tabla, int pjenc)
+        {
+            Console.Clear();
+            Console.WriteLine("Ingrese el nombre del personaje a modificar:");
+            string nombre = Console.ReadLine();
+            bool modificado = false;
+
+            for (int i = 0; i < pjenc; i++)
+            {
+                if (tabla[i, 0] == nombre)
+                {
+                    Console.Write("Ingrese nuevo valor de fuerza: ");
+                    tabla[i, 2] = Console.ReadLine();
+                    Console.Write("Ingrese nuevo valor de defensa: ");
+                    tabla[i, 3] = Console.ReadLine();
+                    Console.WriteLine("Personaje modificado.");
+                    modificado = true;
+                }
+            }
+
+            if (!modificado)
+            {
+                Console.WriteLine("Personaje no encontrado.");
+            }
+            Console.WriteLine("Presione una tecla para continuar...");
+            Console.ReadKey();
+        }
+
+        static void EliminarPersonaje(string[,] tabla, int pjenc)
+        {
+            Console.Clear();
+            Console.WriteLine("Ingrese el nombre del personaje a eliminar:");
+            string nombre = Console.ReadLine();
+            bool eliminado = false;
+
+            for (int i = 0; i < pjenc; i++)
+            {
+                if (tabla[i, 0] == nombre)
+                {
+                    tabla[i, 0] = "";
+                    tabla[i, 1] = "";
+                    tabla[i, 2] = "";
+                    tabla[i, 3] = "";
+                    tabla[i, 4] = "";
+                    Console.WriteLine("Personaje eliminado.");
+                    eliminado = true;
+                }
+            }
+
+            if (!eliminado)
+            {
+                Console.WriteLine("Personaje no encontrado.");
+            }
+        }
+
+        static void MostrarPersonajes(string[,] tabla, int pjenc)
+        {
+            Console.Clear();
+            if (pjenc == 0)
+            {
+                Console.WriteLine("No hay personajes registrados.");
+            }
+            else
+            {
+                Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
+                for (int i = 0; i < pjenc; i++)
+                {
+                    if (tabla[i, 0] != "")
+                    {
+                        Console.WriteLine(mostrar(tabla[i, 0], tabla[i, 1], tabla[i, 2], tabla[i, 3], tabla[i, 4]));
+                    }
+                }
+            }
+        }
+
+        static string mostrar(string nombre, string saga, string fuerza, string defensa, string rol)
+        {
             return nombre + "\t" + saga + "\t" + fuerza + "\t" + defensa + "\t" + rol;
-
         }
 
-
-        static string modificar(string nombre, string defensa, string fuerza, string[,] tabla)
-        {
-
-            if (nombre != Console.ReadLine())
-            {
-                return " ";
-            }
-            Console.WriteLine("Ingrese nuevo valor de fuerza: ");
-            fuerza = Console.ReadLine();
-            Console.WriteLine("Ingrese nuevo valor de defensa: ");
-            defensa = Console.ReadLine();
-            Console.WriteLine("Fuerza\tDefensa");
-            return fuerza + "\t" + defensa;
-
-        }
-
-        static string borrar(string nombre, string rta, string saga, string defensa, string fuerza, string rol)
-        {
-
-            if (nombre != Console.ReadLine())
-            {
-                return " ";
-            }
-            Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
-            return nombre + "\t" + saga + "\t" + fuerza + "\t" + defensa + "\t" + rol;
-
-        }
-    }
-    /*
-    a revisar
-    
-                 
-                        Console.WriteLine("---Busqueda de personaje---");
-
-                        if (pjenc == 0)
-                        {
-                            Console.WriteLine("No hay personajes registrados.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Nombre\tSaga\tFuerza\tDefensa\tRol");
-                            Console.WriteLine("--------------------------------------------------------------------------------");
-                            for (int i = 0; i < pjenc; i++)
-                            {
-                                nombre = tabla[i, 0];
-                                saga = tabla[i, 1];
-                                fuerza = tabla[i, 2];
-                                defensa = tabla[i, 3];
-                                if (rta == "si")
-                                {
-                                    tabla[pjenc, 4] = "Heroe";
-                                }
-                                else if (rta == "no")
-                                {
-                                    tabla[pjenc, 4] = "Villano";
-                                }
-                                Console.WriteLine($"{nombre}\t\t{Saga}km\t\t{Fuerza}\t{Defensa}$\t\t");
-                            }
-                        }
-        
-    
-    */
 }
+
