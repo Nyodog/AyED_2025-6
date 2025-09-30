@@ -59,6 +59,7 @@ namespace _3_PC6_7
                         break;
 
                     case "5":
+                        Arrray.Sort(tabla);
                         MostrarPersonajes(tabla, pjenc);
                         Console.WriteLine("Presione una tecla para continuar...");
                         Console.ReadLine();
@@ -213,4 +214,5 @@ namespace _3_PC6_7
         }
 
 }
+
 
